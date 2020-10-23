@@ -1,0 +1,16 @@
+digit_0 = int(input("Enter digit in 0 position:"))
+digit_1 = int(input("Enter digit in 1 position:"))
+digit_2 = int(input("Enter digit in 2 position:"))
+digit_3 = int(input("Enter digit in 3 position:"))
+digit_4 = int(input("Enter digit in 4 position:"))
+digit_5 = int(input("Enter digit in 5 position:"))
+digit_6 = int(input("Enter digit in 6 position:"))
+digit_7 = int(input("Enter digit in 7 position:"))
+digit_8 = int(input("Enter digit in 8 position:"))
+digit_9 = int(input("Enter digit in 9 position:"))
+digit_10 = int(input("Enter digit in 10 position:"))
+digit_11 = int(input("Enter digit in 11 position:"))
+
+digit_12 = 10 - int(( digit_0 + (3 * digit_1) + digit_2 + (3 * digit_3) + digit_4 + (3 * digit_5) + digit_6 + (3 * digit_7) + digit_8 + (3 * digit_9) + digit_10 + (3 * digit_11)) % 10)
+
+ISBN = print("ISBN:", " ", digit_0, digit_1, digit_2, "-", digit_3, "-", digit_4, digit_5, digit_6, "-", digit_7, digit_8, digit_9, digit_10, digit_11, "-",digit_12)
