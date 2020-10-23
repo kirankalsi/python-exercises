@@ -1,6 +1,6 @@
-for i in range(1,11):
+for first_num in range(1,11):
     tt=""
-    for j in range(1,11):
-        num = i*j
+    for second_num in range(1,11):
+        num = first_num*second_num
         tt = tt + " " + str(num)
     print(tt)
