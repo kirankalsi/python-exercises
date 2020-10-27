@@ -6,6 +6,8 @@ final_mark = int(input("Enter final mark out of 100: "))
 def grade_calculator(hwk_mark, ass_mark, final_mark):
     if hwk_mark > 25 or ass_mark > 50 or final_mark > 100:
         return False
+    if hwk_mark < 0 or ass_mark < 0 or final_mark < 0:
+        return False
     avg_mark = (((hwk_mark/25) + (ass_mark/50) + (final_mark/100))/3)*100
     return avg_mark
     
