@@ -22,14 +22,16 @@ def grade_boundary(avg_mark):
         final_letter_grade = "F"
     return final_letter_grade
 
-name = input("Enter name: ")
-hwk_mark = int(input("Enter homework mark out of 25: "))
-ass_mark = int(input("Enter assessment mark out of 50: "))
-final_mark = int(input("Enter final mark out of 100: "))
+#inputs commented out for testing
 
-grade = grade_calculator(hwk_mark, ass_mark, final_mark)
-if grade == False:
-    print("Invalid scores entered")
-else:
-    letter_grade = grade_boundary(grade)
-    print(f"{name} got {grade}% which is a {letter_grade}")
+#name = input("Enter name: ")
+#hwk_mark = int(input("Enter homework mark out of 25: "))
+#ass_mark = int(input("Enter assessment mark out of 50: "))
+#final_mark = int(input("Enter final mark out of 100: "))
+
+#grade = grade_calculator(hwk_mark, ass_mark, final_mark)
+#if grade == False:
+#    print("Invalid scores entered")
+#else:
+#    letter_grade = grade_boundary(grade)
+#    print(f"{name} got {grade}% which is a {letter_grade}")
