@@ -7,7 +7,8 @@ def best_conjugation(string):
     for word in words_list:
         if word in string:
             subwords.append(word)
-    return subwords 
+    return subwords
+    f_contents.close() 
 
 print(best_conjugation('awesomeness'))
 
